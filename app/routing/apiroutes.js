@@ -27,6 +27,7 @@ module.exports = function (app) {
 		var usrImage = usrData.image;
 		var usrScores = usrData.scores;
 		var totalDifference = 0;
+		friends.push(usrData)
 
 		for (var i = 0; i < friends.length - 1; i++) {
 			totalDifference = 0;
